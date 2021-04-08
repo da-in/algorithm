@@ -6,3 +6,5 @@
 2021.04.03 achieve Bronze V</br>
 2021.04.05 achieve Bornze IV</br>
 2021.04.06 achieve Bronze III</br>
+2021.04.07 achieve Bronze II</br>
+2021.04.08 achieve Bronze I</br>
