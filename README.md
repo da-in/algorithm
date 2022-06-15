@@ -1,7 +1,9 @@
-# baekjoon-online-judge
-✔ BOJ(Baekjoon Online Judge) problem solving repository (solved.ac id - talown)
+# algorithm
+✔ BOJ(Baekjoon Online Judge) problem solving repository (solved.ac id - talown)  
+✔ CodeUp
 
-**HISTORY**</br>
+
+<!-- **HISTORY**</br>
 2021.04.03 create repository</br>
 2021.04.03 achieve Bronze V</br>
 2021.04.05 achieve Bornze IV</br>
@@ -14,4 +16,4 @@
 1. Stack Queue LinkedList Deque HashMap String
 2. PriorityQueue ExhaustiveSearch
 3. BinarySearch DFS BFS Recursion
-4. Graph DP
+4. Graph DP -->
