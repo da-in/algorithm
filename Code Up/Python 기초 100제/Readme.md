@@ -27,3 +27,10 @@ chr(input())
 # 소수점 반올림
 format(num, ".2f")
 ```
+
+```
+# 정수 list
+num = list(map(int, sys.stdin.readline().split()))
+# list 평균
+sum(list)/len(list)
+```
