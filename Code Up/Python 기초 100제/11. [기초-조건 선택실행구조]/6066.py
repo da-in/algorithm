@@ -1,13 +1,8 @@
 import sys
-num = int(sys.stdin.readline())
+num = list(map(int, sys.stdin.readline().split()))
 
-if num<0:
-    if num%2==0:
-        print('A')
+for n in num :
+    if(n%2==0):
+        print('even')
     else:
-        print('B')
-else:
-    if num%2==0:
-        print('C')
-    else:
-        print('D')
+        print('odd')
