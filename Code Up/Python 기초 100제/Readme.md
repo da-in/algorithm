@@ -1,6 +1,13 @@
 ### memo
 
 ```
+# 여러 변수 입력
+# map 함수 내에 int() 가 아니라 int 만, 함수 명만 기입하는 것 유의.
+a, b, c = map(int, sys.stdin.readline().split())
+
+```
+
+```
 # 16진수 정수로 인식하기
 int(input(), 16)
 ```
