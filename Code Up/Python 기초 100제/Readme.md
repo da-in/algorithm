@@ -8,6 +8,7 @@ int(input(), 16)
 ```
 # 16진수 대문자로 출력하기
 print("%x".upper() % num)
+print(f'{format(n, "X")}')
 ```
 
 ```
