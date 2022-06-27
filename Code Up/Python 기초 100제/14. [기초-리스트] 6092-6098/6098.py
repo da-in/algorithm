@@ -7,6 +7,8 @@ for i in range(10):
 cur_x = 1
 cur_y = 1
 
+board[cur_x][cur_y] = 9
+
 while 1 :
     if(board[cur_x][cur_y+1]!=1):
         if(board[cur_x][cur_y+1]==2):
@@ -18,6 +20,8 @@ while 1 :
     else:
         if(board[cur_x+1][cur_y]==2):
             board[cur_x+1][cur_y]=9
+            break
+        elif(board[cur_x+1][cur_y]==1):
             break
         else:
             board[cur_x+1][cur_y]=9
