@@ -1,3 +1,2 @@
-n = int(input())
-num = list(map(int, str(input())))
-print(sum(num))
+input()
+print(sum(list(map(int, list(input())))))

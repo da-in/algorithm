@@ -1,5 +1,3 @@
-n = int(input())
-scores = list(map(int, input().split()))
-max_score = max(scores)
-sum_score = sum(scores)
-print(sum_score/max_score/n*100)
+N = int(input())
+scores =list(map(int, input().split()))
+print(sum(scores) / N / max(scores) * 100)

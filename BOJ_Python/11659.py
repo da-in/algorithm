@@ -1,14 +1,16 @@
 import sys
 input = sys.stdin.readline
-num_len, rep = map(int, input().split())
-numbers = list(map(int, input().split()))
-pre_sum = [0]
-temp = 0
 
-for num in numbers:
-  temp = temp + num
-  pre_sum.append(temp)
+N, T = map(int, input().split())
 
-for i in range (rep):
-  s, e = map(int, input().split())
-  print(pre_sum[e]-pre_sum[s-1])
+number = list(map(int, input().split()))
+sum_number = [0]
+for i in range(0, N):
+  if(i==0):
+    sum_number.append(number[0])
+  else:
+    sum_number.append(sum_number[i]+number[i])
+
+for j in range(0, T):
+  i, j = map(int, input().split())
+  print(sum_number[j]-sum_number[i-1])
